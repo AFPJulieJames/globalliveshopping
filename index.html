@@ -157,9 +157,7 @@ footer a:hover{color:var(--gold)}
     <h1>Where the <em>Global Live Shopping</em> Economy Lives</h1>
     <p class="hero-sub">GlobalLiveShopping.com covers the live commerce industry -- tracking brands, creators, platforms, and programs across the global live shopping economy. From TikTok Shop to Amazon Live to emerging global live commerce markets.</p>
     <div class="hero-form">
-      <input class="hero-input" type="text" placeholder="Your name" id="hero-name">
-      <input class="hero-input" type="email" placeholder="Your email address" id="hero-email">
-      <button class="hero-btn" onclick="handleSignup()">Stay Informed</button>
+      <a href="https://affiliateliveshopping.beehiiv.com/subscribe" class="hero-btn">Stay Informed</a>
     </div>
     <p class="hero-trust">Industry updates. No noise. Unsubscribe anytime.</p>
     <div class="hero-stats">
@@ -305,11 +303,9 @@ footer a:hover{color:var(--gold)}
     <h2>Get the <em>Global Live Shopping</em> Industry Update</h2>
     <p>Join the GlobalLiveShopping.com early access list for industry updates, platform news, brand program launches, and live commerce market data. Built for brands, creators, and industry professionals tracking the live shopping economy.</p>
     <div class="cta-form">
-      <input class="cta-input" type="text" placeholder="Your name" id="cta-name">
-      <input class="cta-input" type="email" placeholder="Your email address" id="cta-email">
-      <button class="cta-btn" onclick="handleCTA()">Stay Informed</button>
-    </div>
-    <p class="cta-note">Industry updates only. No spam. Unsubscribe anytime.</p>
+    <a href="https://affiliateliveshopping.beehiiv.com/subscribe" class="cta-btn">Stay Informed</a>
+  </div>
+  <p class="cta-note">Industry updates only. No spam. Unsubscribe anytime.</p>
   </div>
 </section>
 
@@ -325,19 +321,6 @@ footer a:hover{color:var(--gold)}
   <a href="#">Terms of Use</a></p>
 </footer>
 
-<script>
-function handleSignup(){
-  var name=document.getElementById('hero-name').value;
-  var email=document.getElementById('hero-email').value;
-  if(!email){alert('Please enter your email address.');return;}
-  window.location.href='https://affiliateliveshopping.beehiiv.com/subscribe?name='+encodeURIComponent(name)+'&email='+encodeURIComponent(email);
-}
-function handleCTA(){
-  var name=document.getElementById('cta-name').value;
-  var email=document.getElementById('cta-email').value;
-  if(!email){alert('Please enter your email address.');return;}
-  window.location.href='https://affiliateliveshopping.beehiiv.com/subscribe?name='+encodeURIComponent(name)+'&email='+encodeURIComponent(email);
-}
-</script>
+<script></script>
 </body>
 </html>
