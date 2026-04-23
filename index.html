@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- Google tag (gtag.js) - Add your GA ID here -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Global Live Shopping -- The Live Commerce Industry Hub | Brands, Creators & Platforms</title>
+<meta name="description" content="GlobalLiveShopping.com is the industry hub for live commerce. Covering live shopping trends, brand programs, creator opportunities, and platform news across TikTok Shop, Amazon Live, and the global live shopping economy.">
+<meta name="keywords" content="global live shopping, live commerce industry, live shopping brands, live shopping economy, live commerce platform, live shopping trends 2025, live shopping market, live commerce brands, global live commerce, live shopping industry news, live selling market">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  --ink:#0E0E0E;
+  --paper:#F5F0E8;
+  --paper2:#EDE8DA;
+  --white:#FDFAF5;
+  --gold:#C9A84C;
+  --gold-light:#E8C96A;
+  --gold-dark:#A67C30;
+  --teal:#0D7377;
+  --teal-light:#14A3A8;
+  --muted:#6B6558;
+  --border:#D4CFC4;
+  --font-display:'Playfair Display',Georgia,serif;
+  --font-body:'Outfit',sans-serif;
+}
+
+body{font-family:var(--font-body);background:var(--paper);color:var(--ink);line-height:1.65;font-size:16px;overflow-x:hidden}
+
+nav{position:sticky;top:0;z-index:100;background:rgba(245,240,232,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between}
+.nav-logo{font-family:var(--font-display);font-size:1.15rem;font-weight:700;font-style:italic;color:var(--ink)}
+.nav-logo span{font-style:normal;color:var(--gold-dark)}
+.nav-cta{background:var(--ink);color:var(--paper);padding:0.55rem 1.4rem;border-radius:4px;font-size:0.875rem;font-weight:500;letter-spacing:0.02em;cursor:pointer;border:none;transition:background 0.2s}
+.nav-cta:hover{background:#2A2A2A}
+
+/* HERO */
+.hero{background:var(--ink);color:var(--paper);padding:7rem 2rem 5rem;position:relative;overflow:hidden}
+.hero-texture{position:absolute;inset:0;background-image:repeating-linear-gradient(0deg,transparent,transparent 60px,rgba(201,168,76,0.04) 60px,rgba(201,168,76,0.04) 61px),repeating-linear-gradient(90deg,transparent,transparent 60px,rgba(201,168,76,0.04) 60px,rgba(201,168,76,0.04) 61px);z-index:0}
+.hero-content{position:relative;z-index:1;max-width:1000px}
+.hero-kicker{font-size:0.75rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-bottom:1.5rem;display:flex;align-items:center;gap:0.75rem}
+.hero-kicker::before{content:'';display:block;width:30px;height:1px;background:var(--gold)}
+.hero h1{font-family:var(--font-display);font-size:clamp(2.5rem,6vw,5.5rem);font-weight:900;line-height:1.05;margin-bottom:1.5rem;color:var(--paper)}
+.hero h1 em{font-style:italic;color:var(--gold-light)}
+.hero-sub{font-size:1.1rem;color:rgba(245,240,232,0.65);max-width:580px;margin-bottom:3rem;line-height:1.8;font-weight:300}
+.hero-form{display:flex;gap:0.75rem;flex-wrap:wrap;margin-bottom:1rem}
+.hero-input{padding:0.875rem 1.25rem;background:rgba(245,240,232,0.08);border:1px solid rgba(245,240,232,0.2);border-radius:4px;font-family:var(--font-body);font-size:1rem;color:var(--paper);width:230px;outline:none;transition:border-color 0.2s}
+.hero-input::placeholder{color:rgba(245,240,232,0.35)}
+.hero-input:focus{border-color:var(--gold)}
+.hero-btn{padding:0.875rem 2rem;background:var(--gold);color:var(--ink);border:none;border-radius:4px;font-family:var(--font-body);font-size:1rem;font-weight:600;cursor:pointer;transition:background 0.2s;white-space:nowrap}
+.hero-btn:hover{background:var(--gold-light)}
+.hero-trust{font-size:0.8rem;color:rgba(245,240,232,0.45)}
+.hero-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0;border-top:1px solid rgba(245,240,232,0.1);margin-top:4rem;padding-top:2rem}
+.hero-stat{padding:1.5rem 0;border-right:1px solid rgba(245,240,232,0.1)}
+.hero-stat:last-child{border-right:none}
+.stat-num{font-family:var(--font-display);font-size:2rem;font-weight:700;color:var(--gold-light);display:block;margin-bottom:0.25rem}
+.stat-label{font-size:0.75rem;color:rgba(245,240,232,0.45);letter-spacing:0.06em;text-transform:uppercase}
+
+/* DIVIDER */
+.divider{background:var(--gold);padding:0.75rem 2rem;text-align:center}
+.divider p{font-size:0.8rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink)}
+
+/* SECTIONS */
+.section{padding:5rem 2rem}
+.section-inner{max-width:1100px;margin:0 auto}
+.kicker{font-size:0.75rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:0.75rem;display:flex;align-items:center;gap:0.5rem}
+.kicker::before{content:'';display:block;width:20px;height:1px;background:var(--gold-dark)}
+.title{font-family:var(--font-display);font-size:clamp(1.75rem,4vw,3rem);font-weight:700;color:var(--ink);margin-bottom:1.25rem;line-height:1.15}
+.title em{font-style:italic;color:var(--teal)}
+.subtitle{font-size:1rem;color:var(--muted);max-width:580px;line-height:1.8;margin-bottom:3rem;font-weight:300}
+
+/* WHY */
+.why{background:var(--paper2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;max-width:1000px;margin:0 auto;align-items:center}
+.why-text h2{font-family:var(--font-display);font-size:clamp(1.75rem,3.5vw,2.75rem);font-weight:700;color:var(--ink);margin-bottom:1.25rem;line-height:1.2}
+.why-text h2 em{font-style:italic;color:var(--teal)}
+.why-text p{font-size:1rem;color:var(--muted);line-height:1.8;margin-bottom:1rem;font-weight:300}
+.why-stats{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.why-stat{background:var(--white);border:1px solid var(--border);padding:1.5rem;border-radius:8px}
+.why-stat-num{font-family:var(--font-display);font-size:1.75rem;font-weight:700;color:var(--teal);margin-bottom:0.25rem}
+.why-stat-label{font-size:0.8rem;color:var(--muted);line-height:1.5;font-weight:300}
+
+/* COVERAGE */
+.coverage-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;max-width:1100px;margin:0 auto}
+.coverage-card{background:var(--white);border:1px solid var(--border);border-radius:8px;padding:2rem}
+.coverage-card h3{font-family:var(--font-display);font-size:1.2rem;font-weight:700;color:var(--ink);margin-bottom:0.75rem}
+.coverage-card p{font-size:0.9rem;color:var(--muted);line-height:1.7;font-weight:300}
+.coverage-tag{display:inline-block;background:rgba(13,115,119,0.08);color:var(--teal);font-size:0.7rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;padding:0.25rem 0.65rem;border-radius:4px;margin-bottom:0.75rem}
+
+/* PLATFORMS */
+.platforms{background:var(--ink);color:var(--paper)}
+.platforms .section-inner{text-align:center}
+.platforms .title{color:var(--paper)}
+.platforms .title em{color:var(--gold-light)}
+.platforms .subtitle{color:rgba(245,240,232,0.55);margin:0 auto 3rem}
+.platforms-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1px;background:rgba(245,240,232,0.08);border:1px solid rgba(245,240,232,0.08);text-align:left;max-width:1100px;margin:0 auto}
+.plat{background:var(--ink);padding:2rem;transition:background 0.2s}
+.plat:hover{background:#1A1A1A}
+.plat-name{font-family:var(--font-display);font-size:1.1rem;font-weight:700;color:var(--paper);margin-bottom:0.5rem}
+.plat-type{font-size:0.7rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:0.75rem}
+.plat p{font-size:0.875rem;color:rgba(245,240,232,0.5);line-height:1.65;font-weight:300}
+
+/* CTA */
+.cta-section{background:var(--paper2);border-top:1px solid var(--border);text-align:center}
+.cta-inner{max-width:700px;margin:0 auto}
+.cta-section h2{font-family:var(--font-display);font-size:clamp(2rem,4.5vw,3.5rem);font-weight:700;color:var(--ink);margin-bottom:1rem;line-height:1.15}
+.cta-section h2 em{font-style:italic;color:var(--teal)}
+.cta-section p{font-size:1rem;color:var(--muted);margin-bottom:2.5rem;line-height:1.75;font-weight:300}
+.cta-form{display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;margin-bottom:1rem}
+.cta-input{padding:0.875rem 1.25rem;background:var(--white);border:1px solid var(--border);border-radius:4px;font-family:var(--font-body);font-size:1rem;color:var(--ink);width:220px;outline:none;transition:border-color 0.2s}
+.cta-input:focus{border-color:var(--gold-dark)}
+.cta-btn{padding:0.875rem 2rem;background:var(--ink);color:var(--paper);border:none;border-radius:4px;font-family:var(--font-body);font-size:1rem;font-weight:600;cursor:pointer;transition:background 0.2s;white-space:nowrap}
+.cta-btn:hover{background:#2A2A2A}
+.cta-note{font-size:0.8rem;color:var(--muted)}
+
+/* QUOTE */
+.quote{background:var(--white);padding:4rem 2rem;text-align:center;border-top:1px solid var(--border)}
+.quote p{font-family:var(--font-display);font-size:clamp(1.4rem,3vw,2.25rem);font-style:italic;color:var(--ink);max-width:680px;margin:0 auto 0.75rem;line-height:1.3}
+.quote em{color:var(--teal);font-style:normal}
+.quote-attr{font-size:0.8rem;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase}
+
+footer{background:var(--ink);color:rgba(245,240,232,0.45);padding:2rem;text-align:center}
+footer p{font-size:0.8rem}
+footer a{color:rgba(245,240,232,0.45);margin:0 0.5rem;transition:color 0.2s}
+footer a:hover{color:var(--gold)}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.hero-content>*{animation:fadeUp 0.6s ease both}
+.hero-kicker{animation-delay:0.1s}
+.hero h1{animation-delay:0.2s}
+.hero-sub{animation-delay:0.3s}
+.hero-form{animation-delay:0.4s}
+.hero-stats{animation-delay:0.5s}
+
+@media(max-width:768px){
+  .why-grid{grid-template-columns:1fr}
+  .hero-form{flex-direction:column;align-items:flex-start}
+  .hero-input{width:100%;max-width:340px}
+  nav{padding:0.75rem 1rem}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo"><em>Global</em><span>LiveShopping</span></div>
+  <button class="nav-cta" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">Stay Informed</button>
+</nav>
+
+<section class="hero">
+  <div class="hero-texture"></div>
+  <div class="hero-content">
+    <div class="hero-kicker">The Live Commerce Industry Hub</div>
+    <h1>Where the <em>Global Live Shopping</em> Economy Lives</h1>
+    <p class="hero-sub">GlobalLiveShopping.com covers the live commerce industry -- tracking brands, creators, platforms, and programs across the global live shopping economy. From TikTok Shop to Amazon Live to emerging global live commerce markets.</p>
+    <div class="hero-form">
+      <input class="hero-input" type="text" placeholder="Your name" id="hero-name">
+      <input class="hero-input" type="email" placeholder="Your email address" id="hero-email">
+      <button class="hero-btn" onclick="handleSignup()">Stay Informed</button>
+    </div>
+    <p class="hero-trust">Industry updates. No noise. Unsubscribe anytime.</p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="stat-num">$20B+</span>
+        <span class="stat-label">Global affiliate market 2026</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-num">100M+</span>
+        <span class="stat-label">Social shoppers globally</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-num">26%</span>
+        <span class="stat-label">Influencer campaign growth YoY</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-num">$33B</span>
+        <span class="stat-label">Influencer market value 2025</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><p>Covering TikTok Shop -- Amazon Live -- Instagram Live -- YouTube Live -- Whatnot -- Emerging Global Live Commerce Platforms</p></div>
+
+<!-- WHY -->
+<section class="section why">
+  <div class="why-grid">
+    <div class="why-text">
+      <p class="kicker">Why live shopping matters</p>
+      <h2>Live Commerce is Reshaping How the <em>World Shops</em></h2>
+      <p>Live shopping has moved from a trend to a $20 billion global industry in under five years. What started in Asia with platforms like Taobao Live has exploded globally through TikTok Shop, Amazon Live, and Instagram Live shopping.</p>
+      <p>Brands are shifting marketing budgets from traditional advertising to live shopping affiliate programs. Creators are replacing brand deals with commission-based live selling. And consumers are buying more from live streams than from static product pages.</p>
+      <p>GlobalLiveShopping.com tracks this industry -- the brands, the platforms, the programs, and the creators shaping where live commerce goes next.</p>
+    </div>
+    <div class="why-stats">
+      <div class="why-stat">
+        <div class="why-stat-num">$71.74B</div>
+        <div class="why-stat-label">Affiliate marketing projected value by 2034</div>
+      </div>
+      <div class="why-stat">
+        <div class="why-stat-num">15.2%</div>
+        <div class="why-stat-label">Annual compound growth rate of affiliate industry</div>
+      </div>
+      <div class="why-stat">
+        <div class="why-stat-num">80%</div>
+        <div class="why-stat-label">Of brands now running affiliate programs</div>
+      </div>
+      <div class="why-stat">
+        <div class="why-stat-num">5.2%</div>
+        <div class="why-stat-label">TikTok affiliate link engagement rate -- 160% higher than Instagram</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COVERAGE -->
+<section class="section" style="background:var(--white)">
+  <div class="section-inner">
+    <p class="kicker">What we cover</p>
+    <h2 class="title">The Live Shopping Industry <em>in Full</em></h2>
+    <p class="subtitle">GlobalLiveShopping.com covers every dimension of the live commerce economy -- from creator programs to brand strategy to platform developments.</p>
+    <div class="coverage-grid">
+      <div class="coverage-card">
+        <span class="coverage-tag">Brand Programs</span>
+        <h3>Live Shopping Brand Affiliate Programs</h3>
+        <p>Track which brands are launching live shopping affiliate programs, what they pay, and how creators can apply. From major retailers like Sephora and Best Buy to emerging direct to consumer brands recruiting live selling affiliates.</p>
+      </div>
+      <div class="coverage-card">
+        <span class="coverage-tag">Creator Economy</span>
+        <h3>Live Shopping Creator Opportunities</h3>
+        <p>Coverage of how creators across every niche are building income through live commerce. Commission structures, platform strategies, and real data on what live shopping creators earn across TikTok Shop, Amazon Live, and emerging platforms.</p>
+      </div>
+      <div class="coverage-card">
+        <span class="coverage-tag">Platform News</span>
+        <h3>Global Live Commerce Platform Updates</h3>
+        <p>Stay current on every major live shopping platform development -- TikTok Shop policy changes, Amazon Live program updates, Instagram Live shopping features, and new global live commerce platforms entering the market.</p>
+      </div>
+      <div class="coverage-card">
+        <span class="coverage-tag">Market Data</span>
+        <h3>Live Shopping Industry Statistics and Trends</h3>
+        <p>Data driven coverage of the global live shopping market. Commission rate trends, platform growth statistics, consumer behavior shifts, and projections for where the live commerce economy is heading in 2025, 2026, and beyond.</p>
+      </div>
+      <div class="coverage-card">
+        <span class="coverage-tag">Global Markets</span>
+        <h3>International Live Shopping Markets</h3>
+        <p>Live shopping started in Asia and is now reshaping commerce globally. Coverage of live shopping markets in China, Southeast Asia, Europe, and North America -- and what global live commerce trends mean for creators and brands in the US.</p>
+      </div>
+      <div class="coverage-card">
+        <span class="coverage-tag">Attribution</span>
+        <h3>Live Shopping Attribution and Tracking</h3>
+        <p>As live shopping affiliate programs mature, attribution and tracking are becoming critical. Coverage of cookieless tracking, multi touch attribution, and how the live commerce industry is building more transparent affiliate infrastructure.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PLATFORMS -->
+<section class="section platforms">
+  <div class="section-inner">
+    <p class="kicker" style="color:var(--gold);justify-content:center">Platforms we track</p>
+    <h2 class="title">Every Major <em>Live Shopping Platform</em> in One Place</h2>
+    <p class="subtitle">From the dominant global platforms to emerging live commerce networks -- GlobalLiveShopping.com tracks every player in the live shopping economy.</p>
+    <div class="platforms-grid">
+      <div class="plat">
+        <div class="plat-type">North America Leader</div>
+        <div class="plat-name">TikTok Shop</div>
+        <p>The fastest growing live shopping platform in the United States. TikTok Shop has rapidly become the dominant live commerce channel for creator affiliates, with commission rates up to 20% and affiliate link engagement rates 160% higher than Instagram.</p>
+      </div>
+      <div class="plat">
+        <div class="plat-type">Established Leader</div>
+        <div class="plat-name">Amazon Live</div>
+        <p>Amazon's live shopping program connects creators with the world's largest product catalog. Amazon Live affiliate commissions through the Associates program make it one of the most credible and accessible live shopping affiliate channels globally.</p>
+      </div>
+      <div class="plat">
+        <div class="plat-type">Social Commerce</div>
+        <div class="plat-name">Instagram Live Shopping</div>
+        <p>Meta's Instagram Live shopping integration reaches over 100 million active social shoppers. Brands including Sephora, GAP, and American Eagle have launched Instagram affiliate programs specifically targeting live shopping creators.</p>
+      </div>
+      <div class="plat">
+        <div class="plat-type">Long Form Commerce</div>
+        <div class="plat-name">YouTube Live Shopping</div>
+        <p>YouTube Live shopping combines long form content trust with real time purchasing. YouTube creators can stack affiliate commissions from Google's program with direct brand deals for maximum live commerce income.</p>
+      </div>
+      <div class="plat">
+        <div class="plat-type">Collectibles Market</div>
+        <div class="plat-name">Whatnot</div>
+        <p>Whatnot is the leading live shopping marketplace for collectibles, trading cards, vintage fashion, and unique finds. A distinct corner of the global live commerce economy with loyal creator communities and strong repeat purchase behavior.</p>
+      </div>
+      <div class="plat">
+        <div class="plat-type">Global Origin</div>
+        <div class="plat-name">Asian Live Commerce Platforms</div>
+        <p>Live shopping originated in China with Taobao Live and has spread globally through platforms including Douyin, Shopee Live, and Lazada Live. GlobalLiveShopping.com tracks how Asian live commerce innovations are influencing the global market.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section cta-section" id="cta">
+  <div class="cta-inner">
+    <p class="kicker" style="justify-content:center">Stay ahead of live commerce</p>
+    <h2>Get the <em>Global Live Shopping</em> Industry Update</h2>
+    <p>Join the GlobalLiveShopping.com early access list for industry updates, platform news, brand program launches, and live commerce market data. Built for brands, creators, and industry professionals tracking the live shopping economy.</p>
+    <div class="cta-form">
+      <input class="cta-input" type="text" placeholder="Your name" id="cta-name">
+      <input class="cta-input" type="email" placeholder="Your email address" id="cta-email">
+      <button class="cta-btn" onclick="handleCTA()">Stay Informed</button>
+    </div>
+    <p class="cta-note">Industry updates only. No spam. Unsubscribe anytime.</p>
+  </div>
+</section>
+
+<div class="quote">
+  <p>"Live shopping is not a trend. It is the next chapter of <em>global commerce</em>."</p>
+  <p class="quote-attr">GlobalLiveShopping.com -- Tracking the Live Commerce Economy</p>
+</div>
+
+<footer>
+  <p>&copy; 2026 GlobalLiveShopping.com. All rights reserved.
+  <a href="mailto:hello@affiliatefinderpro.com">Contact</a>
+  <a href="#">Privacy Policy</a>
+  <a href="#">Terms of Use</a></p>
+</footer>
+
+<script>
+function handleSignup(){
+  var name=document.getElementById('hero-name').value;
+  var email=document.getElementById('hero-email').value;
+  if(!email){alert('Please enter your email address.');return;}
+  window.location.href='https://affiliateliveshopping.beehiiv.com/subscribe?name='+encodeURIComponent(name)+'&email='+encodeURIComponent(email);
+}
+function handleCTA(){
+  var name=document.getElementById('cta-name').value;
+  var email=document.getElementById('cta-email').value;
+  if(!email){alert('Please enter your email address.');return;}
+  window.location.href='https://affiliateliveshopping.beehiiv.com/subscribe?name='+encodeURIComponent(name)+'&email='+encodeURIComponent(email);
+}
+</script>
+</body>
+</html>
